@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  12 MAR 2013 14:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  12 MAR 2013 17:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -302,49 +302,57 @@ File: bullet3.png Graphic file (type png)
  <use bullet3.png>
 Package pdftex.def Info: bullet3.png used on input line 57.
 (pdftex.def)             Requested size: 433.62pt x 294.38127pt.
- [3 <./bullet3.png (PNG copy)>] <bullet4_schem.png, id=26, 1054.63779pt x 689.0
-8604pt>
+ [3 <./bullet3.png (PNG copy)>]
+
+LaTeX Warning: Reference `b4_bode_opt' on page 4 undefined on input line 66.
+
+<bullet4_schem.png, id=26, 1054.63779pt x 689.08604pt>
 File: bullet4_schem.png Graphic file (type png)
-
-<use bullet4_schem.png>
+ <use bullet4_schem.png>
 Package pdftex.def Info: bullet4_schem.png used on input line 70.
-(pdftex.def)             Requested size: 397.48499pt x 259.71043pt.
- <bullet4_bode.png, id=27, 1284.8pt x 872.25874pt>
+(pdftex.def)             Requested size: 505.89pt x 330.53673pt.
+
+Overfull \hbox (14.45213pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+<bullet4_bode.png, id=27, 1284.8pt x 872.25874pt>
 File: bullet4_bode.png Graphic file (type png)
-
-<use bullet4_bode.png>
+ <use bullet4_bode.png>
 Package pdftex.def Info: bullet4_bode.png used on input line 77.
-(pdftex.def)             Requested size: 433.62pt x 294.38127pt.
- [4 <./bullet4_schem.png>]
-<bullet4_bode_opt.png, id=32, 1284.8pt x 872.25874pt>
-File: bullet4_bode_opt.png Graphic file (type png)
+(pdftex.def)             Requested size: 505.89pt x 343.45369pt.
 
-<use bullet4_bode_opt.png>
-Package pdftex.def Info: bullet4_bode_opt.png used on input line 84.
-(pdftex.def)             Requested size: 397.48499pt x 269.85172pt.
- [5 <./bullet4_bode.png (PNG copy)> <./bullet4_bode_opt.png (PNG copy)>] (./Pro
-blem Set 4.aux) ) 
+Overfull \hbox (14.45213pt too wide) in paragraph at lines 77--78
+ [][] 
+ []
+
+[4 <./bullet4_schem.png>] [5 <./bullet4_bode.png (PNG copy)>] [6]
+(./Problem Set 4.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2751 strings out of 493488
- 37750 string characters out of 3141326
- 104232 words of memory out of 3000000
- 6023 multiletter control sequences out of 15000+200000
- 8514 words of font info for 32 fonts, out of 3000000 for 9000
+ 2748 strings out of 493488
+ 37652 string characters out of 3141326
+ 104224 words of memory out of 3000000
+ 6020 multiletter control sequences out of 15000+200000
+ 8822 words of font info for 33 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,6n,30p,1263b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
-b>
-Output written on "Problem Set 4.pdf" (5 pages, 238150 bytes).
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
+al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Problem Set 4.pdf" (6 pages, 242241 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
