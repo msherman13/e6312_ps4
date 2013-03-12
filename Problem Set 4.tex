@@ -63,9 +63,11 @@ I performed a DC sweep of $V_{out-OL}$ against $V_{in-OTA}$ with the OTA in stan
 \section{Bullet Point 4}
 I applied a small-signal differential input as well as some preliminary feedback circuitry in order to simulate the open loop gain. Because the open loop gain does not consider feedback, I wanted to build a  circuit that would block all feedback. To do this I implemented an RC lowpass filter with a negligible cutoff voltage as can be seen in Figure \ref{b4_schem}. I performed an AC simulation of the open loop gain of the circuit (see Figure \ref{b4_bode} and was able to attain $A(s) = 486.47\frac{V}{V} = 53.74dB$. Because the transistor M44 does directly affect any bias voltages of my amplifier, decreasing its size provides me with an increased gain. By optimizing the size of this device to $W_{M44} = 17.4\mu A$, I was able to attain $A(s) = 549.43\frac{V}{V} = 54.80dB$ with only minor affects on my amplifier's biasing (see Figure \ref{b4_bode_opt}).
 
+From the optimized plot, I estimate that there are poles at $~100kHz$ and $0.6GHz$ and a zero at a very high frequency. I estimate the gain-bandwidth product (taken at -3dB from the maximum gain) to be $~48.2MHz$.
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=6in]{bullet4_schem.png}
+\includegraphics[width=5.5in]{bullet4_schem.png}
 \caption{Schematic Diagram for the Folded Cascode OTA for Open Loop Gain Simulation}
 \label{b4_schem}
 \end{figure}
@@ -79,7 +81,7 @@ I applied a small-signal differential input as well as some preliminary feedback
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=6in]{bullet4_bode_opt.png}
+\includegraphics[width=5.5in]{bullet4_bode_opt.png}
 \caption{Bode Plot of the Open Loop Gain of the OTA After Optimization}
 \label{b4_bode_opt}
 \end{figure}
