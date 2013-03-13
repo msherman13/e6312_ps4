@@ -84,6 +84,27 @@ From the phase plot of my optimized open loop circuit (Figure \ref{b4_bode_opt})
 INSERT SCAN HERE
 
 \section{Bullet Point 6}
+I placed my OTA in AC feedback as shown in Figure \ref{b6_schem} with $V_{cm} = 0.8V$. As can be seen, there is a significant reduction in gain which is expected and my bandwidth is increased (see Figure \ref{b6_bode}). The closed loop gain of $2.26V/V = 7.08dB$ can be used along with the below equation to find the feedback factor of $\beta = 0.44A/V$.
+
+\begin{equation}
+A_{closed-loop} = \frac{A_{open-loop}}{1+\beta A_{open-loop}}
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=7in]{bullet6_schem.png}
+\caption{Schematic Diagram for the Folded Cascode OTA for Closed Loop Gain Simulation}
+\label{b6_schem}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=7in]{bullet6_bode.png}
+\caption{Bode Plot of the Closed Loop Gain of the OTA}
+\label{b6_bode}
+\end{figure}
+
+\section{Bullet Point 7}
 
 
 \end{document}
