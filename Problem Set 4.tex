@@ -8,7 +8,7 @@
 \usepackage{lscape}
 \usepackage{ulem}
 \usepackage{float}
-
+\usepackage{lscape}\usepackage{subfig}\usepackage{tabularx}\usepackage[thinspace,thinqspace,amssymb]{SIunits}\usepackage{multirow}
 
 \usepackage[scale=0.8]{geometry}
 \begin{document}
@@ -84,13 +84,17 @@ From the phase plot of my optimized open loop circuit (Figure \ref{b4_bode}), I 
 INSERT SCAN HERE
 
 \section{Bullet Point 6}
-I placed my OTA in AC feedback as shown in Figure \ref{b6_schem} with $V_{cm} = 0.8V$. To find the feedback factor, $\beta$, from this configuration, I plotted the current through the feedback resistor times the resistor value over the voltage at the output (see Figure \ref{b6_beta}).
+I placed my OTA in AC feedback as shown in Figure \ref{b6_schem} with $V_{cm} = 0.8V$. To find the feedback factor, $\beta$, from this configuration, I plotted the current through the feedback resistor over the voltage at the output (see Figure \ref{b6_beta}).
 
 \begin{equation}
-\beta = \frac{I_f R_f}{v_{out}}
+\beta = \frac{I_f}{v_{out}}
 \end{equation}
 
-From my simulation, I attained a value of $\beta = 1.443V/V$.
+From my simulation, I attained a value of $\beta = 0.577mA/V$. This is comparable to the ideal value of
+
+\begin{equation}
+\beta_{ideal} = \frac{1}{R_f} = 0.4mA/V
+\end{equation}
 
 \begin{figure}[H]
 \centering
@@ -102,11 +106,78 @@ From my simulation, I attained a value of $\beta = 1.443V/V$.
 \begin{figure}[H]
 \centering
 \includegraphics[width=7in]{bullet6_beta.png}
-\caption{Frequency Response of the }
+\caption{Frequency Response of the Feedback Network}
 \label{b6_beta}
 \end{figure}
 
 \section{Bullet Point 7}
+\section{Bullet Point 8}
+\section{Bullet Point 9}
+\section{Bullet Point 10}
+With an ideal op-amp (infinite gain and bandwidth), a small-signal step at the input should cause an immediate small-signal step at the output. The reason for this is that with infinite bandwidth, $\tau$ is defined as
+
+\begin{equation}
+\tau = \frac{1}{2\pi f_{3dB}} = \infty.
+\end{equation}
+
+To determine the output function, we use the equation
+
+\begin{equation}
+v_{OUT} = \mu (t) \{1-e^{\frac{-t}{\tau}}\} = \mu (t).
+\end{equation}
+
+Therefore, with a small-signal step function at the input, we will observe a small-signal step function at the output.
+\newpage
+
+\section{Bullet Point 11}
+To determine the ideal output step for the various small-signal step inputs, I first had to simulate the closed loop gain of my circuit. To do this I constructed the circuit shown in Figure \ref{b11_gainschem} and acquired a gain of $A_{closed-loop} = 0.53V/V = -5.51dB$ (see Figure \ref{b11_gain}). I then set out to simulate the step response at various input magnitudes and sample at times $2\tau$ and $100Ts$. My transient step responses can be seen in Figure \ref{b11_step} and my voltage transfer characteristic for $V_{ideal}, V_{out1},$ and $V_{out2}$ can be seen in Figure \ref{b11_transfer}.
+
+The absolute and percent errors are shown in the Chart \ref{b11_errors}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=7in]{bullet11_gainschem.png}
+\caption{Schematic to Measure Closed Loop Gain}
+\label{b11_gainschem}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in]{bullet11_gain.png}
+\caption{Closed Loop Frequency Response of the OTA in Feedback}
+\label{b11_gain}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in]{bullet11_step.png}
+\caption{Step Responses for Various Small-Signal Input Step Sizes}
+\label{b11_step}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in]{bullet11_transfer.pdf}
+\caption{Transfer Function of the OTA Step Response}
+\label{b11_transfer}
+\end{figure}
+
+\begin{table}[H]\centering\newcolumntype{R}{>{\centering\arraybackslash}X}\begin{tabularx}{500pt}{|R|R|R|R|R|R|}\hline$v_{in} [\unit{}{mV}]$&$v_{ideal} [\unit{}{mV}]$&Absolute Error at $t = 2\tau[\unit{}{mV}]$&Percent Error at $t = 2\tau[\unit{}{\%}]$&Absolute Error at $t = 200Ts[\unit{}{mV}]$&Percent Error at $t = 200Ts[\unit{}{\%}]$\\ \hline
+10&5.30&0.33&6.17&0.03&0.51\\ \hline
+20&10.60&0.71&6.70&0.05&0.47\\ \hline
+30&15.90&1.06&6.67&0.07&0.44\\ \hline-10&5.30&0.31&5.89&0.04&0.79\\ \hline-20&10.60&0.74&7.00&0.08&0.82\\ \hline-30&15.90&1.15&7.23&0.14&0.86\\ \hline\end{tabularx}\caption{Error Values for Small Signal Step Response}
+\label{b11_errors}\end{table}
+
+\section{Bullet Point 12}
+\section{Bullet Point 13}
+I extended my step response plot for input steps of $\pm 100mV$, $\pm 200mV$, and $\pm 500mV$ to show the effects of slewing. As can be seen in Figure \ref{b13_step}, slewing is most obvious in the 500mV response.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=5.5in]{bullet13_step.png}
+\caption{Step Responses for Various Large-Signal Input Step Sizes}
+\label{b13_step}
+\end{figure}
 
 
 \end{document}

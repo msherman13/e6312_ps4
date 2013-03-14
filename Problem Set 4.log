@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 MAR 2013 17:34
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 MAR 2013 23:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -147,6 +147,74 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box32
 )
+(/usr/local/texlive/2012/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@indent=\dimen120
+\caption@parindent=\dimen121
+\caption@hangindent=\dimen122
+)
+\c@ContinuedFloat=\count102
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count103
+\sf@farskip=\skip47
+\sf@captopadj=\dimen123
+\sf@capskip=\skip48
+\sf@nearskip=\skip49
+\c@subfigure=\count104
+\c@subfigure@save=\count105
+\c@lofdepth=\count106
+\c@subtable=\count107
+\c@subtable@save=\count108
+\c@lotdepth=\count109
+\sf@top=\skip50
+\sf@bottom=\skip51
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen124
+\extrarowheight=\dimen125
+\NC@list=\toks23
+\extratabsurround=\skip52
+\backup@length=\skip53
+)
+\TX@col@width=\dimen126
+\TX@old@table=\dimen127
+\TX@old@col=\dimen128
+\TX@target=\dimen129
+\TX@delta=\dimen130
+\TX@cols=\count110
+\TX@ftn=\toks24
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/SIunits/SIunits.sty
+Package: SIunits 2007/12/02 v1.36 Support for the International System of units
+ (MH)
+
+
+\@qskwidth=\skip54
+\symgreek=\mathgroup4
+(/usr/local/texlive/2012/texmf-dist/tex/latex/SIunits/SIunits.cfg)
+LaTeX Info: Redefining \usk on input line 576.
+
+Option `thinspace' provided!
+LaTeX Info: Redefining \@qsk on input line 576.
+Option `thinqspace' provided!
+Option `amssymb' provided!
+) (/usr/local/texlive/2012/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen131
+)
 (/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -161,48 +229,55 @@ Package ifvtex Info: VTeX not detected.
 (/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count102
-\Gm@cntv=\count103
-\c@Gm@tempcnt=\count104
-\Gm@bindingoffset=\dimen117
-\Gm@wd@mp=\dimen118
-\Gm@odd@mp=\dimen119
-\Gm@even@mp=\dimen120
-\Gm@layoutwidth=\dimen121
-\Gm@layoutheight=\dimen122
-\Gm@layouthoffset=\dimen123
-\Gm@layoutvoffset=\dimen124
-\Gm@dimlist=\toks23
+\Gm@cnth=\count111
+\Gm@cntv=\count112
+\c@Gm@tempcnt=\count113
+\Gm@bindingoffset=\dimen132
+\Gm@wd@mp=\dimen133
+\Gm@odd@mp=\dimen134
+\Gm@even@mp=\dimen135
+\Gm@layoutwidth=\dimen136
+\Gm@layoutheight=\dimen137
+\Gm@layouthoffset=\dimen138
+\Gm@layoutvoffset=\dimen139
+\Gm@dimlist=\toks25
 )
 (./Problem Set 4.aux)
 \openout1 = `"Problem Set 4.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 18.
 
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen125
+\scratchcounter=\count114
+\scratchdimen=\dimen140
 \scratchbox=\box33
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen126
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks25
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen141
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks27
 ) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -247,6 +322,13 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+Option `amssymb' provided! 
+ Command \square redefined by SIunits package!
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -284,7 +366,7 @@ e
 <bullet2_schem.png, id=1, 1056.31848pt x 602.53012pt>
 File: bullet2_schem.png Graphic file (type png)
  <use bullet2_schem.png>
-Package pdftex.def Info: bullet2_schem.png used on input line 39.
+Package pdftex.def Info: bullet2_schem.png used on input line 43.
 (pdftex.def)             Requested size: 433.62pt x 247.33315pt.
 
 [1
@@ -293,34 +375,34 @@ Package pdftex.def Info: bullet2_schem.png used on input line 39.
 <bullet2_dcop.png, id=15, 1056.31848pt x 602.53012pt>
 File: bullet2_dcop.png Graphic file (type png)
  <use bullet2_dcop.png>
-Package pdftex.def Info: bullet2_dcop.png used on input line 46.
+Package pdftex.def Info: bullet2_dcop.png used on input line 50.
 (pdftex.def)             Requested size: 433.62pt x 247.33315pt.
 
 [2 <./bullet2_schem.png> <./bullet2_dcop.png>]
 <bullet3.png, id=21, 1284.8pt x 872.25874pt>
 File: bullet3.png Graphic file (type png)
  <use bullet3.png>
-Package pdftex.def Info: bullet3.png used on input line 57.
+Package pdftex.def Info: bullet3.png used on input line 61.
 (pdftex.def)             Requested size: 433.62pt x 294.38127pt.
  [3 <./bullet3.png (PNG copy)>] <bullet4_schem.png, id=26, 1054.63779pt x 689.0
 8604pt>
 File: bullet4_schem.png Graphic file (type png)
 
 <use bullet4_schem.png>
-Package pdftex.def Info: bullet4_schem.png used on input line 70.
+Package pdftex.def Info: bullet4_schem.png used on input line 74.
 (pdftex.def)             Requested size: 505.89pt x 330.53673pt.
 
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 70--71
+Overfull \hbox (14.45213pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
 <bullet4_bode.png, id=27, 1284.8pt x 872.25874pt>
 File: bullet4_bode.png Graphic file (type png)
  <use bullet4_bode.png>
-Package pdftex.def Info: bullet4_bode.png used on input line 77.
+Package pdftex.def Info: bullet4_bode.png used on input line 81.
 (pdftex.def)             Requested size: 505.89pt x 343.45369pt.
 
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 77--78
+Overfull \hbox (14.45213pt too wide) in paragraph at lines 81--82
  [][] 
  []
 
@@ -328,46 +410,91 @@ Overfull \hbox (14.45213pt too wide) in paragraph at lines 77--78
 <bullet6_schem.png, id=35, 1054.63779pt x 689.08604pt>
 File: bullet6_schem.png Graphic file (type png)
  <use bullet6_schem.png>
-Package pdftex.def Info: bullet6_schem.png used on input line 97.
+Package pdftex.def Info: bullet6_schem.png used on input line 105.
 (pdftex.def)             Requested size: 505.89pt x 330.53673pt.
 
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 97--98
+Overfull \hbox (14.45213pt too wide) in paragraph at lines 105--106
  [][] 
  []
 
 <bullet6_beta.png, id=36, 1284.8pt x 872.25874pt>
 File: bullet6_beta.png Graphic file (type png)
  <use bullet6_beta.png>
-Package pdftex.def Info: bullet6_beta.png used on input line 104.
+Package pdftex.def Info: bullet6_beta.png used on input line 112.
 (pdftex.def)             Requested size: 505.89pt x 343.45369pt.
 
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 104--105
+Overfull \hbox (14.45213pt too wide) in paragraph at lines 112--113
  [][] 
  []
 
 [6 <./bullet6_schem.png>] [7 <./bullet6_beta.png (PNG copy)>]
-(./Problem Set 4.aux) ) 
+<bullet11_gainschem.png, id=48, 1054.63779pt x 382.35872pt>
+File: bullet11_gainschem.png Graphic file (type png)
+
+<use bullet11_gainschem.png>
+Package pdftex.def Info: bullet11_gainschem.png used on input line 143.
+(pdftex.def)             Requested size: 505.89pt x 183.40758pt.
+
+Overfull \hbox (14.45213pt too wide) in paragraph at lines 143--144
+ [][] 
+ []
+
+<bullet11_gain.png, id=49, 1284.8pt x 872.25874pt>
+File: bullet11_gain.png Graphic file (type png)
+ <use bullet11_gain.png>
+Package pdftex.def Info: bullet11_gain.png used on input line 150.
+(pdftex.def)             Requested size: 397.48499pt x 269.85172pt.
+
+<bullet11_step.png, id=50, 1284.8pt x 872.25874pt>
+File: bullet11_step.png Graphic file (type png)
+ <use bullet11_step.png>
+Package pdftex.def Info: bullet11_step.png used on input line 157.
+(pdftex.def)             Requested size: 397.48499pt x 269.85172pt.
+
+[8 <./bullet11_gainschem.png> <./bullet11_gain.png (PNG copy)>]
+<bullet11_transfer.pdf, id=55, 679.53876pt x 463.7325pt>
+File: bullet11_transfer.pdf Graphic file (type pdf)
+
+<use bullet11_transfer.pdf>
+Package pdftex.def Info: bullet11_transfer.pdf used on input line 164.
+(pdftex.def)             Requested size: 397.48499pt x 271.25056pt.
+
+Overfull \hbox (8.56213pt too wide) in paragraph at lines 181--182
+ [][] 
+ []
+
+[9 <./bullet11_step.png (PNG copy)> <./bullet11_transfer.pdf>]
+<bullet13_step.png, id=117, 1284.8pt x 872.25874pt>
+File: bullet13_step.png Graphic file (type png)
+ <use bullet13_step.png>
+Package pdftex.def Info: bullet13_step.png used on input line 192.
+(pdftex.def)             Requested size: 397.48499pt x 269.85172pt.
+
+[10 <./bullet13_step.png (PNG copy)>] (./Problem Set 4.aux) ) 
 Here is how much of TeX's memory you used:
- 2757 strings out of 493488
- 37840 string characters out of 3141326
- 104240 words of memory out of 3000000
- 6028 multiletter control sequences out of 15000+200000
- 8514 words of font info for 32 fonts, out of 3000000 for 9000
+ 4505 strings out of 493488
+ 66601 string characters out of 3141326
+ 139299 words of memory out of 3000000
+ 7737 multiletter control sequences out of 15000+200000
+ 10212 words of font info for 38 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,6n,30p,1263b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr17.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb>
-Output written on "Problem Set 4.pdf" (7 pages, 287777 bytes).
+ 44i,11n,42p,1263b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive
+/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/
+2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/20
+12/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2012/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "Problem Set 4.pdf" (10 pages, 412955 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 157 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
